@@ -9,4 +9,8 @@
 - [DbStructure](https://github.com/niclaurio/pokerApp/issues/6)
 
 
+# Why devContainer?
+- [DevContainer](https://github.com/niclaurio/pokerApp/issues/8)
+
+
 
