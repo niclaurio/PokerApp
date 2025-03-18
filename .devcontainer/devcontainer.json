@@ -1,0 +1,23 @@
+{
+    "name": "PokerAppDevContainer",
+    "dockerComposeFile":"./docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/home/pokerApp/development/PokerApp",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python",      // Python extension
+          "matangover.mypy",       // Mypy extension
+          "charliermarsh.ruff",    // Ruff extension
+          "ms-vscode.makefile-tools" // Makefile extension
+        ],
+        "settings": {
+          "editor.formatOnSave": true,
+          "python.formatting.provider": "black",
+          "python.linting.mypyEnabled": true,
+          "python.linting.enabled": true,
+          "python.linting.ruffEnabled": true
+        }
+      }
+    }
+  }
