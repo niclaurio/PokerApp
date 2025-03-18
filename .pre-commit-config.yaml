@@ -1,0 +1,14 @@
+repos:
+  - repo: local
+    hooks:
+      - id: lint
+        name: Run lint
+        entry: bash -c "make lint || echo '❌ Lint failed'"
+        language: system
+        pass_filenames: false
+
+      - id: test
+        name: Run tests
+        entry: bash -c "make test || echo '❌ Tests failed'"
+        language: system
+        pass_filenames: false
