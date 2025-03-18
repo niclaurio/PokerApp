@@ -1,1 +1,4 @@
 .env
+requirements.txt
+requirements_dev.txt
+requirements_test.txt

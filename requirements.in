@@ -1,0 +1,9 @@
+fastapi
+sqlalchemy
+beanie
+uvicorn
+python-jose
+passlib
+pydantic==2.9.2
+asyncpg
+motor
