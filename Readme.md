@@ -5,4 +5,8 @@
 - [ProjectStructure](https://github.com/niclaurio/pokerApp/issues/1)
 
 
+# Db Structure 
+- [DbStructure](https://github.com/niclaurio/pokerApp/issues/6)
+
+
 
