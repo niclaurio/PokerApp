@@ -4,7 +4,7 @@
     "service": "app",
     "workspaceFolder": "/home/pokerApp/development/PokerApp",
     "remoteEnv": {
-      "DEBIAN_FRONTEND": "dialog" // terminal prompt enabled
+      "DEBIAN_FRONTEND": "noninteractive" // terminal prompt enabled
     },
     "customizations": {
       "vscode": {
