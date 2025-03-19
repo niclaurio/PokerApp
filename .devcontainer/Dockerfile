@@ -23,7 +23,7 @@ WORKDIR /home/pokerApp/development/
 # Set the PATH to include the location where pip installs executables
 ENV PATH=/home/pokerApp/.local/bin:$PATH
 ENV MYPYPATH=/home/pokerApp/development/PokerApp/pokerApp
-# Clone the repository as the non-root user
+# Clone the repository as the non-root user and install requirements 
 RUN git clone -b dev https://github.com/niclaurio/PokerApp.git && \
     cd PokerApp && \
     make install && \
