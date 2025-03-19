@@ -14,7 +14,7 @@
 
 
 # Why pip tools with requirements.in?
-- [PipTools]()
+- [PipTools](https://github.com/niclaurio/pokerApp/issues/20)
 
 
 
