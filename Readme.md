@@ -12,6 +12,14 @@
 # Why devContainer?
 - [DevContainer](https://github.com/niclaurio/pokerApp/issues/8)
 
+    to use git inside devConteiner please run  this command  ( do not put it in one line, keep different lines)
+    git credential approve <<EOF
+    protocol=https
+    host=github.com
+    username=your-username
+    password=your-personal-access-token
+    EOF
+
 
 # Why pip tools with requirements.in?
 - [PipTools]()
