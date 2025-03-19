@@ -13,4 +13,8 @@
 - [DevContainer](https://github.com/niclaurio/pokerApp/issues/8)
 
 
+# Why pip tools with requirements.in?
+- [Requirements.in]()
+
+
 
