@@ -12,7 +12,11 @@
           "ms-python.python",
           "matangover.mypy",
           "charliermarsh.ruff",
-          "ms-vscode.makefile-tools"
+          "ms-vscode.makefile-tools",
+          "eamodio.gitlens",      // GitLens (advanced Git support)
+          "github.vscode-pull-request-github", // GitHub extension
+          "ms-vscode.vscode-github-actions", // GitHub Actions support (optional)
+          "mhutchie.git-graph"    // Git Graph (optional for visualization)
         ],
         "settings": {
           "editor.formatOnSave": true,
